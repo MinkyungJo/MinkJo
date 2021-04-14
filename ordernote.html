@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Order - M&K Jewlery</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <a href="home.html" class="logo">
+            <img src="images/logo02.png" alt="M&K logo">
+        </a>
+        
+        <nav class="main-nav">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+    <main>
+        <h1>Place Your Order</h1>
+        <p>Please kindly fill out the form below to reserve your item at the location selected.</p>
+        <form action="shop_thankyou.html" method="post">
+            <label for="name">Name: </label>
+            <input type="text" id="name" name="name">
+            <br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email">
+            <br>
+
+            <label for="tel">Telephone: </label>
+            <input type="tel" name="tel" id="tel">
+            <br>
+
+            <label for="sn">Special notes: </label>
+            <textarea name="sn" id="sn"></textarea>
+            <br>
+            
+            <input type="submit" value="Confirm and Place Order">
+
+        </form>
+    </main>
+    </div>
+    <footer>
+        <p class="copyright">&copy; 2019 M&K Jewlery</p>
+    </footer>
+<script src="scripts/hamburger.js"></script>
+</body>
+</html>
